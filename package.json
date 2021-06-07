@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "In Unhangman, body parts get dismembered if you fail. No pressure.",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/charmyrosewolf/Unhangman.git"

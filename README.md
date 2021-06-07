@@ -27,7 +27,7 @@ Feedback Welcome
 ----------------
 Please feel free to leave any feedback or suggestions by creating an issue in this repo. It will help me make the game more enjoyable for you! I can't promise your request will be possible, or I will implement it in a timely manner, but I'll definitely look into it!
 
-For additional information please see the [DOCS](https://github.com/charmyrosewolf/unhangman/tree/main/Docs)
+For additional information please see the [DOCS](https://github.com/charmyrosewolf/unhangman/tree/master/Docs)
 
 Disclaimer
 ----------------

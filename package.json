@@ -1,0 +1,27 @@
+{
+  "name": "unhangman",
+  "version": "1.0.0",
+  "description": "In Unhangman, body parts get dismembered if you fail. No pressure.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charmyrosewolf/Unhangman.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Hangman",
+    "Reverse",
+    "Hangman",
+    "Unhangman",
+    "JCanvas"
+  ],
+  "author": "charmyrosewolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charmyrosewolf/Unhangman/issues"
+  },
+  "homepage": "https://github.com/charmyrosewolf/Unhangman#readme"
+}

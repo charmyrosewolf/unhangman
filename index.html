@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- for google -->
+  <meta charset="utf-8">
+  <meta name="description" content="Unhangman is Hangman with a twist! Instead of adding body
+    parts your removing them! Try to save the man before he is completely dismembered.
+    Don't worry if that makes you feel a little squeamish, you can always play
+    in original Enjoy!">
+  <meta name="keywords" content="Hangman, Reverse Hangman, Unhangman, Game, Word Game,
+    Guessing game, HTML5,CSS3,JQuery,JCanvas,JavaScript">
+  <meta name="author" content="Charmy Rosewolf">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- for Facebook -->
+  <meta property="og:title" content="Unhangman" />
+  <meta property="og:type" content="game" />
+  <meta property="og:image" content="http://i.imgur.com/FBnWmtEh.png" />
+  <meta property="og:url" content="https://charmyrosewolf.github.io/unhangman/" />
+  <meta property="og:site_name" content="Unhangman" />
+  <meta property="og:description" content="Unhangman is Hangman with a twist! Instead of adding body
+  parts your removing them! Try to save the man before he is completely dismembered.
+  Don't worry if that makes you feel a little squeamish, you can always play
+  in original Enjoy!" />
+
+  <title>Unhangman</title>
+
+  <!-- font awesome cdn -->
+  <script src="https://use.fontawesome.com/42cf8c2449.js"></script>
+  <!-- styles -->
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="css/size-and-positioning.css">
+  <link rel="stylesheet" href="css/fonts-and-colors.css">
+</head>
+
+<body class="column">
+
+  <header>
+    <h1>Unhangman</h1>
+  </header>
+
+  <main>
+
+    <!-- all audio retrieved from soundbible.com  -->
+    <audio class="torture" preload="none">
+      <source src="audio/torture.mp3" type="audio/mp3">
+    </audio>
+
+    <audio class="clapping" preload="none">
+      <source src="audio/clapping.mp3" type="audio/mp3">
+    </audio>
+
+    <audio class="cheering" preload="none">
+      <source src="audio/cheering.mp3" type="audio/mp3">
+    </audio>
+
+    <audio class="decapitation" preload="none">
+      <source src="audio/decapitation.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="welcome column">
+      <h2>Welcome</h2>
+      <p>Setup the game, or just play the default!</p>
+
+      <div class="inputType row">
+        <input class='custom' type="button" name="custom" value="Custom Word">
+        <input class='random' type="button" name="random" value="Random Word">
+      </div>
+
+      <input class="input row hide" type="text" name="guess" placeholder="Enter A Custom Word" value="" autofocus>
+
+      <div class="gameType row">
+        <input class='reverse' type="button" name="reverse" value="Reverse Mode">
+        <input class='forward' type="button" name="forward" value="Original Mode">
+      </div>
+
+      <input class="play" type="button" name="play game" value="Play">
+
+      <input class="instructions" type="button" name="instructions" value="Tutorial">
+    </div>
+
+    <div id="tutorial" class="hide">
+      <p>For a fun experience play in <b>Reverse Mode</b> first!
+      <p>
+    </div>
+
+
+    <div id="game" class="hide">
+
+      <div class="gamearea">
+        <div class="display hangman">
+          <!-- draw hangman here! -->
+        </div>
+
+        <div class="alphabetbox display row">
+
+          <div class="letters"></div>
+
+        </div>
+
+        <div class="wordbox row">
+          <div class="underscore">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="column options">
+        <input class="newGame" type="button" name="newgame" value="New Game">
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Made with &hearts; by Charmy!
+      <a href="https://github.com/charmyrosewolf/unhangman" target="_blank"><i class="fa fa-github"
+          aria-hidden="true"></i></a>
+    </p>
+
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/16.7.3/jcanvas.js"
+    integrity="sha256-bPB16BSDDnMGraNt5j8JSZhJbmZjIDYnJHKy2ruWcrs=" crossorigin="anonymous">
+    </script>
+  <script src="js/HangmanModel.js" charset="utf-8"></script>
+  <script src="js/HangmanView.js" charset="utf-8"></script>
+  <script src="js/WindowView.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+
+</body>
+
+</html>

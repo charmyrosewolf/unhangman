@@ -1,0 +1,54 @@
+/* color palette:
+#FFFFFF // white
+#88BBD6 // Fresh Water
+#CDCDCD //Plaster
+#E9E9E9 //Linen
+*/
+
+body {
+  background-color: #FFFFFF;
+  color: black;
+  border: black 1px solid;
+  font-family: 'Zilla Slab', serif;
+  text-align: center;
+}
+
+header, h2 { text-transform: uppercase; }
+
+.underscore {
+  font-size: 4vw;
+}
+
+input[type='button'] {
+  background-color: #FFFFFF;
+  border: black 1px solid;
+}
+
+.letters{
+  text-align: center;
+}
+
+.unclickable {
+  color: gray;
+  /* Pointer-Events is not validated by w3,
+  but still works for the intended purpose of
+  preventing a click event */
+  pointer-events: none;
+}
+
+.letter:hover { color: #E9E9E9; }
+
+a { color: black; }
+
+/* unguessed letter */
+.bad {
+  color: red;
+}
+
+@media screen and (min-width: 651px) {
+  .gamearea .hangman { width: 40vh; height: 40vh;}
+
+  .letters {
+      font-size: 2vw;
+  }
+}

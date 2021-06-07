@@ -1,0 +1,117 @@
+body {
+  min-height: 100vh;
+  height:100%;
+  width:100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-direction:  row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  width: 100%;
+  line-height: 30px;
+}
+
+footer { min-height: 1vh; }
+
+header { min-height: 10vh; }
+
+main {
+  padding: 40px 20px;
+  min-height: 60vh;
+  height: 100%
+}
+
+.display {
+  justify-content: center;
+  max-height: 40%;
+}
+
+.gamearea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 120vh;
+}
+
+.gamearea div {
+  width: 60vh;
+}
+
+.gamearea .hangman { min-width: 20%; min-height: 40vh; width: 60vh; height: 60vh;}
+
+canvas { border: black 1px solid; }
+
+.letters {
+  margin: auto 0;
+  align-items: center;
+  padding: 10px 0;
+  width: 50%;
+}
+
+.letters div {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.letter { max-width: 100%;}
+
+.underscore {
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.options {
+  justify-content: space-between;
+  height: 5%;
+  padding: 10px;
+}
+
+.options * {
+  margin: 0 auto;
+}
+
+.welcome {
+  align-items: center;
+  justify-content: center;
+  min-height: inherit;
+}
+
+.welcome * {
+  margin: 10px 15px;
+  padding: 2px 0;
+}
+
+.welcome p, #tutorial p {
+  min-width: 300px;
+  font-size: 14px;
+}
+
+input { width: 120px; height: 20px; }
+
+.input { width: 260px; height: 15px;  }
+
+.hide { display: none }
+
+@media screen and (max-width: 650px){
+  .gamearea .hangman { width: 40vh; height: 40vh;}
+
+  .wordbox {
+    order: 1;
+  }
+
+  .alphabetbox {
+    order: 2;
+  }
+}

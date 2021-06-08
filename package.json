@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/charmyrosewolf/Unhangman.git"
+    "url": "git+https://github.com/charmyrosewolf/unhangman.git"
   },
   "keywords": [
     "JavaScript",
@@ -21,7 +21,7 @@
   "author": "charmyrosewolf",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/charmyrosewolf/Unhangman/issues"
+    "url": "https://github.com/charmyrosewolf/unhangman/issues"
   },
-  "homepage": "https://github.com/charmyrosewolf/Unhangman#readme"
+  "homepage": "https://github.com/charmyrosewolf/unhangman#readme"
 }
